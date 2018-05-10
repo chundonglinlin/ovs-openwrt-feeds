@@ -3,8 +3,6 @@ openvswitch
 
 UPDATE: Works now with OpenWrt "Barrier Breaker" (Bleeding Edge)
 
-Open vSwitch 1.9.0 (OvS) package for OpenWrt
-
 Installation
 ------------
 
@@ -24,8 +22,8 @@ Install this as a feed!
 >
 > select Network -> openvswitch-switch, openvswitch-brcompat and openvswitch-controller
 >
+### Cancel Kernel Bridge
 > echo '# CONFIG_KERNEL_BRIDGE is not set' >> .config
-
 
 
 Development
