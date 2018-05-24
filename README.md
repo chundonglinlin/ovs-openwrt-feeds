@@ -17,6 +17,10 @@ Install this as a feed!
 > ./scripts/feeds update openvswitch
 >
 > ./scripts/feeds install -a -p openvswitch
+
+###添加一个 patch
+> wget https://gist.githubusercontent.com/pichuang/7372af6d5d3bd1db5a88/raw/4e2290e3e184288de7623c02f63fb57c536e035a/openwrt-add-libatomic.patch -q -O - | patch -p1
+
 > 
 > make menuconfig
 >
